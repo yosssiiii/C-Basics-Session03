@@ -6,10 +6,17 @@ namespace C__Basics_Session03
     {
         static void Main(string[] args)
         {
-            string title = "clean code";
-            string upperTitle = title.ToUpper();
-            Console.WriteLine(title);
-            Console.WriteLine(upperTitle);
+            #region question 1
+            //string title = "clean code";
+            //string upperTitle = title.ToUpper();
+            //Console.WriteLine(title);
+            //Console.WriteLine(upperTitle);
+            #endregion
+            #region question 2
+            string st1 = "Clean Code";
+            string st2 = "Clean Code";
+            Console.WriteLine(object.ReferenceEquals(st1,st2));
+            #endregion
         }
     }
 }
