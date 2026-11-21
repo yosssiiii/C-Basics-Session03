@@ -6,7 +6,10 @@ namespace C__Basics_Session03
     {
         static void Main(string[] args)
         {
-
+            string title = "clean code";
+            string upperTitle = title.ToUpper();
+            Console.WriteLine(title);
+            Console.WriteLine(upperTitle);
         }
     }
 }
