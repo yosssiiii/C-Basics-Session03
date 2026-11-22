@@ -76,7 +76,7 @@ namespace C__Basics_Session03
             //Console.WriteLine(sizeLabel);
             #endregion
             #region question 12
-            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             //for (int i = 0; i < books.Length; i++) {
             //    Console.WriteLine($"{i + 1} .{books[i]}");
             //}
@@ -90,14 +90,19 @@ namespace C__Basics_Session03
             //}
             #endregion
             #region question 14
-            int i = 0;
-            do
-            {
-                Console.WriteLine("Checking book...");
-                i++;
-            } while (i<=2);
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    i++;
+            //} while (i<=2);
             #endregion
+            #region question 15
+            foreach (string book in books) {
+                Console.WriteLine(book);
+            }
 
+            #endregion
 
         }
     }
