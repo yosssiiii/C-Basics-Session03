@@ -34,13 +34,20 @@ namespace C__Basics_Session03
             //Console.WriteLine(sentence);
             #endregion
             #region question 6
-            string title = "Clean Code";
-            int pages = 464;
+            //string title = "Clean Code";
+            //int pages = 464;
             //Console.WriteLine($"Book:{title},pages:{pages}");
             #endregion
             #region question 7
-            string message = string.Format("Book:{0},pages:{1}",title,pages);
-            Console.WriteLine(message);
+            //string message = string.Format("Book:{0},pages:{1}",title,pages);
+            //Console.WriteLine(message);
+            #endregion
+            #region question 8
+            int pages = 464;
+            if (pages > 300)
+                Console.WriteLine("long book");
+            else
+                Console.WriteLine("short book");
             #endregion
 
 
