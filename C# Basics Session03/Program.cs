@@ -111,13 +111,24 @@ namespace C__Basics_Session03
             //}
             #endregion
             #region question 17
-            for (int i = 0; i < books.Length; i++)
-            {
-                if (books[i] == "The Pragmatic Programmer")
-                    continue;
-                Console.WriteLine(books[i]);
-            }
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "The Pragmatic Programmer")
+            //        continue;
+            //    Console.WriteLine(books[i]);
+            //}
             #endregion
+            #region question 18
+            PrintFirstBook(books);
+            #endregion
+        }
+        public static void PrintFirstBook(string[]book)
+        {
+            
+            if (book.Length==0)
+                return ;
+            else
+                Console.WriteLine(book[0]);
         }
     }
 }
