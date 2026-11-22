@@ -56,19 +56,24 @@ namespace C__Basics_Session03
             //    Console.WriteLine("You can borrow this book");
             #endregion
             #region question 10
-            string title = "Refactoring";
-            switch (title)
-            {
-                case "Clean Code":
-                    Console.WriteLine("Great choice!");
-                    break;
-                case "Refactoring":
-                    Console.WriteLine("Nice pick!");
-                    break;
-                default:
-                    Console.WriteLine("Never heard of it");
-                    break;
-            }
+            //string title = "Refactoring";
+            //switch (title)
+            //{
+            //    case "Clean Code":
+            //        Console.WriteLine("Great choice!");
+            //        break;
+            //    case "Refactoring":
+            //        Console.WriteLine("Nice pick!");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Never heard of it");
+            //        break;
+            //}
+            #endregion
+            #region question 11
+            int pages = 464;
+            string sizeLabel = pages > 300 ? "long book" : "short book";
+            Console.WriteLine(sizeLabel);
             #endregion
 
 
