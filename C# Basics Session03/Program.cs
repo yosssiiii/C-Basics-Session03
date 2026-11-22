@@ -36,8 +36,15 @@ namespace C__Basics_Session03
             #region question 6
             string title = "Clean Code";
             int pages = 464;
-            Console.WriteLine($"Book:{title},pages:{pages}");
+            //Console.WriteLine($"Book:{title},pages:{pages}");
             #endregion
+            #region question 7
+            string message = string.Format("Book:{0},pages:{1}",title,pages);
+            Console.WriteLine(message);
+            #endregion
+
+
+
         }
     }
 }
