@@ -13,9 +13,15 @@ namespace C__Basics_Session03
             //Console.WriteLine(upperTitle);
             #endregion
             #region question 2
-            string st1 = "Clean Code";
-            string st2 = "Clean Code";
-            Console.WriteLine(object.ReferenceEquals(st1,st2));
+            //string st1 = "Clean Code";
+            //string st2 = "Clean Code";
+            //Console.WriteLine(object.ReferenceEquals(st1,st2));
+            #endregion
+            #region question 3
+            StringBuilder st = new StringBuilder();
+            st.Append("Book List");
+            st.Append("_Updated");
+            Console.WriteLine(st);
             #endregion
         }
     }
