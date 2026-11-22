@@ -98,12 +98,18 @@ namespace C__Basics_Session03
             //} while (i<=2);
             #endregion
             #region question 15
-            foreach (string book in books) {
-                Console.WriteLine(book);
-            }
-
+            //foreach (string book in books) {
+            //    Console.WriteLine(book);
+            //}
             #endregion
-
+            #region question 16
+            for (int i = 0; i < books.Length; i++)
+            {
+                if (books[i] == "Refactoring")
+                    break;
+                Console.WriteLine(books[i]);
+            }
+            #endregion
         }
     }
 }
