@@ -28,10 +28,15 @@ namespace C__Basics_Session03
             //Console.WriteLine(st);
             #endregion
             #region question 5
+            //string title = "Clean Code";
+            //int pages = 464;
+            //string sentence = "Book:" + title + ",Pages:" + pages;
+            //Console.WriteLine(sentence);
+            #endregion
+            #region question 6
             string title = "Clean Code";
             int pages = 464;
-            string sentence = "Book:" + title + ",Pages:" + pages;
-            Console.WriteLine(sentence);
+            Console.WriteLine($"Book:{title},pages:{pages}");
             #endregion
         }
     }
