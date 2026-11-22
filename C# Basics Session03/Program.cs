@@ -71,9 +71,15 @@ namespace C__Basics_Session03
             //}
             #endregion
             #region question 11
-            int pages = 464;
-            string sizeLabel = pages > 300 ? "long book" : "short book";
-            Console.WriteLine(sizeLabel);
+            //int pages = 464;
+            //string sizeLabel = pages > 300 ? "long book" : "short book";
+            //Console.WriteLine(sizeLabel);
+            #endregion
+            #region question 12
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int i = 0; i < books.Length; i++) {
+                Console.WriteLine($"{i + 1} .{books[i]}");
+            }
             #endregion
 
 
