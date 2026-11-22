@@ -43,11 +43,17 @@ namespace C__Basics_Session03
             //Console.WriteLine(message);
             #endregion
             #region question 8
+            //int pages = 464;
+            //if (pages > 300)
+            //    Console.WriteLine("long book");
+            //else
+            //    Console.WriteLine("short book");
+            #endregion
+            #region question 9
             int pages = 464;
-            if (pages > 300)
-                Console.WriteLine("long book");
-            else
-                Console.WriteLine("short book");
+            bool isAvailable = true;
+            if (pages > 300 && isAvailable)
+                Console.WriteLine("You can borrow this book");
             #endregion
 
 
