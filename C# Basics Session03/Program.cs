@@ -21,6 +21,10 @@ namespace C__Basics_Session03
             StringBuilder st = new StringBuilder();
             st.Append("Book List");
             st.Append("_Updated");
+            //Console.WriteLine(st);
+            #endregion
+            #region question 4
+            st.Replace("Book List", "Library");
             Console.WriteLine(st);
             #endregion
         }
